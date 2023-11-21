@@ -15,13 +15,13 @@ const v = ref(version)
 const nowYear = DateUtil.nowYear()
 
 // methods
-const goGithub = () => {
-  window.open("https://github.com/terwer/siyuan-plugin-blog")
-}
+//const goGithub = () => {
+//  window.open("https://github.com/terwer/siyuan-plugin-blog")
+//}
 
-const goAbout = () => {
-  window.open("https://blog.terwer.space/about")
-}
+//const goAbout = () => {
+//  window.open("https://blog.terwer.space/about")
+//}
 
 // methods
 const goHome = async () => {
@@ -34,14 +34,14 @@ const goHome = async () => {
   <div class="footer">
     <div>
       <span class="text"> &copy;2011-{{ nowYear }} </span>
-      <span class="text s-dark" @click="goGithub()">&nbsp;siyuan-plugin-blog&nbsp;</span>
+      <span class="text s-dark" @click="goGithub()">&nbsp;Shalom&nbsp;</span>
 
       <span class="text">v{{ v }}&nbsp;</span>
 
       <span class="text s-dark" @click="goHome()">{{ t("go.home") }}</span>
 
-      <span class="text">.</span>
-      <span class="text s-dark" @click="goAbout()">{{ t("syp.about") }}</span>
+//      <span class="text">.</span>
+//      <span class="text s-dark" @click="goAbout()">{{ t("syp.about") }}</span>
 
       <span class="text">.</span>
       <span class="text s-dark" @click="toggleDark()">{{
