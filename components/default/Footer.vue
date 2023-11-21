@@ -40,8 +40,8 @@ const goHome = async () => {
 
       <span class="text s-dark" @click="goHome()">{{ t("go.home") }}</span>
 
-//      <span class="text">.</span>
-//      <span class="text s-dark" @click="goAbout()">{{ t("syp.about") }}</span>
+      <span class="text">.</span>
+      <span class="text s-dark" @click="goAbout()">{{ t("syp.about") }}</span>
 
       <span class="text">.</span>
       <span class="text s-dark" @click="toggleDark()">{{
